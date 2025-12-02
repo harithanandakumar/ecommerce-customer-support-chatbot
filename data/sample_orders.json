@@ -1,0 +1,32 @@
+{
+  "orders": [
+    {
+      "order_id": "ORD001",
+      "customer_id": "CUST001",
+      "status": "shipped",
+      "delivery_date": "2024-12-15",
+      "items": ["Laptop Stand", "USB Cable"]
+    },
+    {
+      "order_id": "ORD002",
+      "customer_id": "CUST002",
+      "status": "processing",
+      "delivery_date": "2024-12-18",
+      "items": ["Wireless Mouse"]
+    },
+    {
+      "order_id": "ORD003",
+      "customer_id": "CUST003",
+      "status": "pending",
+      "delivery_date": "2024-12-20",
+      "items": ["Keyboard", "Monitor"]
+    },
+    {
+      "order_id": "ORD004",
+      "customer_id": "CUST001",
+      "status": "delivered",
+      "delivery_date": "2024-12-10",
+      "items": ["Webcam"]
+    }
+  ]
+}
