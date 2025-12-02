@@ -1,0 +1,28 @@
+{
+  "faqs": [
+    {
+      "question": "How long does shipping take?",
+      "answer": "Standard shipping takes 5-7 business days. Express shipping takes 2-3 business days. International orders may take 10-14 days."
+    },
+    {
+      "question": "What is your return policy?",
+      "answer": "We offer 30-day returns for most items in original condition. Items must have original packaging and receipt."
+    },
+    {
+      "question": "How do I track my order?",
+      "answer": "You can track your order using your order ID. Just provide your order number and we'll get you the latest status."
+    },
+    {
+      "question": "What payment methods do you accept?",
+      "answer": "We accept credit cards, debit cards, PayPal, Apple Pay, and Google Pay."
+    },
+    {
+      "question": "How can I cancel my order?",
+      "answer": "You can cancel orders that are still in pending or processing status. Contact us with your order ID."
+    },
+    {
+      "question": "Is there a refund process?",
+      "answer": "Yes, refunds are processed within 5-10 business days after we receive your returned item."
+    }
+  ]
+}
