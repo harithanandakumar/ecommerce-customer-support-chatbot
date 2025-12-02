@@ -1,0 +1,29 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hello", "hey", "greetings", "good morning"],
+      "responses": ["Hello! How can I help you today?", "Hi there! What can I assist you with?", "Welcome! How can I serve you?"]
+    },
+    {
+      "tag": "track_order",
+      "patterns": ["track my order", "where is my order", "order status", "check order", "my order"],
+      "responses": ["I can help you track your order. Please provide your order ID."]
+    },
+    {
+      "tag": "cancel_item",
+      "patterns": ["cancel order", "cancel my order", "delete order", "remove order", "stop order"],
+      "responses": ["I can help you cancel your order. Please provide your order ID."]
+    },
+    {
+      "tag": "faq",
+      "patterns": ["shipping", "return", "payment", "delivery", "refund"],
+      "responses": ["Let me find that information for you."]
+    },
+    {
+      "tag": "default",
+      "patterns": [],
+      "responses": ["I'm not sure I understand. Can you please rephrase that?"]
+    }
+  ]
+}
