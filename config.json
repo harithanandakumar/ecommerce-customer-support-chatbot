@@ -1,0 +1,44 @@
+{
+  "app_config": {
+    "name": "E-Commerce Customer Support Chatbot",
+    "version": "1.0.0",
+    "debug": false,
+    "log_level": "INFO"
+  },
+  "intent_classifier": {
+    "confidence_threshold": 0.6,
+    "use_stemming": true,
+    "pattern_matching_sensitivity": "high"
+  },
+  "ir_based_qa": {
+    "similarity_threshold": 0.5,
+    "top_k_results": 3,
+    "vectorizer_type": "tfidf"
+  },
+  "dialogue_system": {
+    "max_conversation_history": 10,
+    "enable_context_awareness": true,
+    "session_timeout_minutes": 30
+  },
+  "response_generation": {
+    "include_confidence_scores": true,
+    "response_length": "medium",
+    "enable_entity_substitution": true
+  },
+  "order_tracker": {
+    "database_path": "data/sample_orders.json",
+    "auto_refresh_interval": 3600,
+    "cache_enabled": true
+  },
+  "logging": {
+    "format": "%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    "file_path": "logs/chatbot.log",
+    "max_file_size_mb": 10,
+    "backup_count": 5
+  },
+  "performance": {
+    "enable_caching": true,
+    "cache_ttl_seconds": 300,
+    "max_response_time_ms": 5000
+  }
+}
